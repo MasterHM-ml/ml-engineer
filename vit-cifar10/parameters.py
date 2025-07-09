@@ -2,6 +2,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Parameters:
+    batch_size = 128
     epoch = 10
 
     patch_size = 4
